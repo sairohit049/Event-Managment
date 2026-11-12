@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+ 
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+
+        <a class="navbar-brand" href="#">Event Hub</a>
+
+        <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <!-- LEFT MENU -->
+            <ul class="navbar-nav me-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Events</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                        href="#"
+                        data-bs-toggle="dropdown">
+                        Categories
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" onclick="showAll()">All Events</a></li>
+                        <li><a class="dropdown-item" onclick="fetchFilteredData('Music')">Music</a></li>
+                        <li><a class="dropdown-item" onclick="fetchFilteredData('Sports')">Sports</a></li>
+                        <li><a class="dropdown-item" onclick="fetchFilteredData('Workshop')">Workshop</a></li>
+                        <li><a class="dropdown-item" onclick="fetchFilteredData('Technology')">Tech</a></li>
+                        <li><a class="dropdown-item" onclick="fetchFilteredData('Food')">Food</a></li>
+                        <li><a class="dropdown-item" onclick="fetchFilteredData('Comedy')">Comedy</a></li>
+                        <li><a class="dropdown-item" onclick="fetchFilteredData('Cultural')">Art</a></li>
+                        <li><a class="dropdown-item" onclick="fetchFilteredData('Business')">Business</a></li>
+                        <li><a class="dropdown-item" onclick="fetchFilteredData('Entertainment')">Entertainment</a></li>
+                        <li><a class="dropdown-item" onclick="fetchFilteredData('Health')">Health</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="bookings.html">
+                        My Bookings
+                    </a>
+                </li>
+
+            </ul>
+
+            <!-- SEARCH -->
+            <form class="d-flex me-3" onsubmit="searchEvents(event)">
+                <input
+                    id="searchBox"
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search events...">
+
+                <button class="btn btn-outline-dark">
+                    Search
+                </button>
+            </form>
+
+            <!-- LOGIN -->
+            <div id="authButtons">
+
+                <a href="login.html" class="btn btn-primary">
+                    Login
+                </a>
+
+                <a href="signup.html" class="btn btn-primary ms-2">
+                    Sign Up
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+</nav>
+<div class="mid"><br><br>
+  <div class="hero-content">
+    <h2>Discover & Book Amazing Events</h2>
+    <h4>Music • Sports • Workshops • Tech • More</h4>
+
+   <button class="explore-btn" onclick="scrollToEvents()">
+    Explore Events
+</button>
+</div>
+</div>
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<section class="container py-5">
+
+    <div class="categories">
+
+        <div class="category" onclick="fetchFilteredData('Music')">
+            <div class="icon music" ><i class="bi bi-music-note-beamed"></i> </div>
+            <p>Music</p>
+        </div>
+
+        <div class="category" onclick="fetchFilteredData('Sports')">
+            <div class="icon sports">
+                <i class="bi bi-dribbble"></i>
+            </div>
+            <p>Sports</p>
+        </div>
+
+        <div class="category" onclick="fetchFilteredData('Workshop')">
+            <div class="icon workshop">
+                <i class="bi bi-tools"></i>
+            </div>
+            <p>Workshop</p>
+        </div>
+
+        <div class="category" onclick="fetchFilteredData('Technology')">
+            <div class="icon tech">
+                <i class="bi bi-pc-display"></i>
+            </div>
+            <p>Tech</p>
+        </div>
+
+        <div class="category" onclick="fetchFilteredData('Food')">
+            <div class="icon food">
+                <i class="bi bi-cup-hot"></i>
+            </div>
+            <p>Food</p>
+        </div>
+
+        <div class="category" onclick="fetchFilteredData('Comedy')">
+            <div class="icon comedy">
+                <i class="bi bi-emoji-laughing"></i>
+            </div>
+            <p>Comedy</p>
+        </div>
+
+        <div class="category" onclick="fetchFilteredData('Cultural')">
+            <div class="icon art">
+                <i class="bi bi-palette"></i>
+            </div>
+            <p>Art</p>
+        </div>
+
+    </div>
+<h2 class="section-title">
+    Upcoming Events
+</h2>
+
+<div id="content"></div>
+ <script type="module" src="./index.js"></script>
+ <footer>
+    <h3>Event Hub</h3>
+     <p>Discover • Book • Enjoy</p>
+  <p>© 2026 Event Hub. All Rights Reserved.</p>
+   <a href="./adminlogin.html">Admin Login</a>
+</footer>
+</section>
+<script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

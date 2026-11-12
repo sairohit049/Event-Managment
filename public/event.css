@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+}
+
+#eventDetails{
+    width:90%;
+    max-width:1200px;
+    margin:50px auto;
+}
+
+.event-card{
+    display:flex;
+    gap:40px;
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+}
+
+.event-card img{
+    width:45%;
+    height:650px;
+    object-fit:cover;
+}
+
+.details{
+    flex:1;
+    padding:35px;
+}
+
+.details h1{
+    font-size:36px;
+    margin-bottom:25px;
+    color:#222;
+}
+
+.details p{
+    margin:15px 0;
+    font-size:17px;
+    color:#555;
+    line-height:1.7;
+}
+
+.details strong{
+    color:#111;
+}
+
+.details h2{
+    margin-top:30px;
+    font-size:34px;
+    color:#0d6efd;
+}
+
+.details button{
+    margin-top:25px;
+    padding:15px 35px;
+    border:none;
+    border-radius:10px;
+    background:#0d6efd;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.details button:hover{
+    background:#084298;
+    transform:translateY(-3px);
+}
+
+/* Style every information line */
+
+.details p:nth-child(2),
+.details p:nth-child(3),
+.details p:nth-child(4),
+.details p:nth-child(5),
+.details p:nth-child(6),
+.details p:nth-child(7){
+    background:#f8f9fa;
+    padding:12px 18px;
+    border-radius:8px;
+    /* border-left:5px solid #0d6efd; */
+}
+
+/* Description */
+
+.details p:nth-child(8){
+    margin-top:25px;
+    background:white;
+    border:none;
+    padding:0;
+}
+
+/* Mobile */
+
+@media(max-width:900px){
+
+.event-card{
+    flex-direction:column;
+}
+
+.event-card img{
+    width:100%;
+    height:350px;
+}
+
+.details{
+    padding:20px;
+}
+
+.details h1{
+    font-size:28px;
+}
+
+.details h2{
+    font-size:28px;
+}
+
+.details button{
+    width:100%;
+}
+
+}
+body{
+    background:#F8FAFC;
+}
+.event-card{
+    background:white;
+    box-shadow:var(--shadow);
+}
+.price{
+    color:var(--primary);
+}
+.book-btn{
+ background:var(--primary);
+}
+.book-btn:hover{
+    background:var(--primary-hover);
+}

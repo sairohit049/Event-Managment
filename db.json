@@ -1,0 +1,418 @@
+{
+  "Events": [
+    {
+      "title": "OG Tour by S.S. Thaman",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8i_phuwc2fPxpEhKzathQyUh3atM4LQHSASa2OPQtDIf3qRuiJkOEiqo&s=10",
+      "category": "Music",
+      "date": "2026-09-02",
+      "time": "",
+      "location": "Hyderabad",
+      "organizer": "Thaman Live Events",
+      "availableSeats": 2000,
+      "price": 499,
+      "description": "Experience the electrifying live performance of S.S. Thaman with his blockbuster hits.",
+      "id": 1
+    },
+    {
+      "id": 7,
+      "title": "International Food Carnival",
+      "category": "Food",
+      "date": "2026-09-22",
+      "time": "12:00 PM",
+      "location": "Visakhapatnam",
+      "price": 299,
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800",
+      "description": "Enjoy delicious cuisines from around the world along with live cooking demonstrations.",
+      "availableSeats": 1200,
+      "organizer": "Foodies Club"
+    },
+    {
+      "id": 2,
+      "title": "Arijit Singh Live Concert",
+      "category": "Music",
+      "date": "2026-09-18",
+      "time": "07:30 PM",
+      "location": "Bangalore",
+      "price": 999,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRfx6Ut4X02CSrL6y3852HmSaMJqDGLQXA3IaqgevQAZ5Ffmu3WiagR_uy&s=10",
+      "description": "Enjoy an unforgettable evening with Arijit Singh's soulful melodies.",
+      "availableSeats": 1200,
+      "organizer": "Live Nation India"
+    },
+    {
+      "id": 4,
+      "title": "AI & Machine Learning Summit",
+      "category": "Technology",
+      "date": "2026-09-10",
+      "time": "09:30 AM",
+      "location": "Bengaluru",
+      "price": 1499,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLBGn6TmUap5JucXpZxSDdW4wLH8wdXm0EJiOStVmD7qSTMMsnJfjs8vEG&s=10",
+      "description": "Meet AI experts and explore the future of Artificial Intelligence.",
+      "availableSeats": 350,
+      "organizer": "Tech World"
+    },
+    {
+      "id": 5,
+      "title": "Hyderabad Marathon",
+      "category": "Sports",
+      "date": "2026-10-12",
+      "time": "05:30 AM",
+      "location": "Hyderabad",
+      "price": 299,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb9qcXUdHIS6FDsgur6Oog2i75l37l2Zu0dc02FIm0o15yTofH60cDanc&s=10",
+      "description": "Run for fitness and charity in Hyderabad's biggest marathon.",
+      "availableSeats": 5000,
+      "organizer": "Sports India"
+    },
+    {
+      "id": 6,
+      "title": "IPL Fan Festival",
+      "category": "Sports",
+      "date": "2026-09-20",
+      "time": "04:00 PM",
+      "location": "Chennai",
+      "price": 599,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKFl858T8VbaL16hszP1qHTl5JE4sktKyEr6s7KdiT5JXnOR3ZZ8WGzzl1&s=10",
+      "description": "Meet cricket legends and enjoy fun games and live screenings.",
+      "availableSeats": 2000,
+      "organizer": "BCCI"
+    },
+    {
+      "id": 25,
+      "title": "Startup Business Summit",
+      "category": "Business",
+      "date": "2026-08-30",
+      "time": "11:00 AM",
+      "location": "Mumbai",
+      "price": 899,
+      "image": "https://media.konfhub.com/event_poster/2024/June/25/1719335927784-07488b6a-5ddb-4943-bb75-3d0d9bb38820.png",
+      "description": "Connect with investors, founders, and entrepreneurs.",
+      "availableSeats": 250,
+      "organizer": "Startup India"
+    },
+    {
+      "id": 8,
+      "title": "Digital Marketing Masterclass",
+      "category": "Business",
+      "date": "2026-09-08",
+      "time": "02:00 PM",
+      "location": "Delhi",
+      "price": 699,
+      "image": "https://coursegate.co.uk/wp-content/uploads/2019/11/Digital-Marketing-Masterclass-12-Courses-in-1.jpg",
+      "description": "Learn SEO, Social Media Marketing, and Google Ads.",
+      "availableSeats": 180,
+      "organizer": "Marketing Hub"
+    },
+    {
+      "id": 9,
+      "title": "Hyderabad Food Festival",
+      "category": "Food",
+      "date": "2026-10-05",
+      "time": "01:00 PM",
+      "location": "Hyderabad",
+      "price": 199,
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQHJFRRjNnunmw/feedshare-shrink_800/feedshare-shrink_800/0/1708880772422?e=2147483647&v=beta&t=UpGagOiFtOfJ8_PCw_qyozvpZsjtCtR_alqeunWkdZ0",
+      "description": "Taste delicious cuisines from across India.",
+      "availableSeats": 1500,
+      "organizer": "Food Lovers Club"
+    },
+    {
+      "id": 10,
+      "title": "MasterChef Cooking Workshop",
+      "category": "Workshop",
+      "date": "2026-09-15",
+      "time": "03:00 PM",
+      "location": "Visakhapatnam",
+      "price": 399,
+      "image": "https://m.media-amazon.com/images/I/A1phIHqSCTL._AC_UF1000,1000_QL80_.jpg",
+      "description": "Hands-on cooking workshop with professional chefs.",
+      "availableSeats": 100,
+      "organizer": "Chef Academy"
+    },
+    {
+      "id": 11,
+      "title": "Stand-up Comedy Night",
+      "category": "Comedy",
+      "date": "2026-09-28",
+      "time": "08:00 PM",
+      "location": "Pune",
+      "price": 499,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh0_gNBooV0b_ciEd_Ca6dXgiWoc4dtztURdiIExK39fPnNSFWv0WuyTg&s=10",
+      "description": "Laugh out loud with India's top stand-up comedians.",
+      "availableSeats": 350,
+      "organizer": "Comedy Club"
+    },
+    {
+      "id": 12,
+      "title": "Cultural Fest 2026",
+      "category": "Cultural",
+      "date": "2026-10-18",
+      "time": "06:00 PM",
+      "location": "Visakhapatnam",
+      "price": 250,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58286csqki_2wAoP6n5S_SnAU--wF2dEfqo67Xp7192yfSeJHn4zK1dII&s=10",
+      "description": "Celebrate dance, music, art, and traditional performances.",
+      "availableSeats": 1000,
+      "organizer": "AP Cultural Association"
+    },
+    {
+      "id": 13,
+      "title": "React.js Bootcamp 2026",
+      "category": "Technology",
+      "date": "2026-11-05",
+      "time": "10:00 AM",
+      "location": "Hyderabad",
+      "price": 799,
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800",
+      "description": "Master React.js by building real-world projects with industry experts.",
+      "availableSeats": 300,
+      "organizer": "Code Academy"
+    },
+    {
+      "id": 14,
+      "title": "Sunburn EDM Festival",
+      "category": "Music",
+      "date": "2026-12-20",
+      "time": "07:00 PM",
+      "location": "Goa",
+      "price": 2499,
+      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800",
+      "description": "Dance all night with top international DJs and spectacular light shows.",
+      "availableSeats": 8000,
+      "organizer": "Sunburn India"
+    },
+    {
+      "id": 15,
+      "title": "National Photography Workshop",
+      "category": "Workshop",
+      "date": "2026-10-25",
+      "time": "09:00 AM",
+      "location": "Mysuru",
+      "price": 599,
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800",
+      "description": "Learn portrait, wildlife, and street photography from professionals.",
+      "availableSeats": 120,
+      "organizer": "Photography Club India"
+    },
+    {
+      "id": 16,
+      "title": "Startup Pitch Competition",
+      "category": "Business",
+      "date": "2026-11-18",
+      "time": "11:30 AM",
+      "location": "Bengaluru",
+      "price": 999,
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800",
+      "description": "Present your startup idea to investors and win exciting prizes.",
+      "availableSeats": 500,
+      "organizer": "Startup Connect"
+    },
+    {
+      "id": 17,
+      "title": "Yoga & Wellness Retreat",
+      "category": "Health",
+      "date": "2026-09-30",
+      "time": "06:30 AM",
+      "location": "Rishikesh",
+      "price": 899,
+      "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800",
+      "description": "Relax with yoga sessions, meditation, and wellness activities.",
+      "availableSeats": 250,
+      "organizer": "Wellness India"
+    },
+    {
+      "id": 18,
+      "title": "Anime & Cosplay Expo",
+      "category": "Entertainment",
+      "date": "2026-10-15",
+      "time": "10:00 AM",
+      "location": "Chennai",
+      "price": 499,
+      "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800",
+      "description": "Meet anime fans, participate in cosplay contests, and explore merchandise.",
+      "availableSeats": 2500,
+      "organizer": "Anime India"
+    },
+    {
+      "id": 19,
+      "title": "Indian Classical Dance Festival",
+      "category": "Cultural",
+      "date": "2026-11-08",
+      "time": "05:00 PM",
+      "location": "Chennai",
+      "price": 399,
+      "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=800",
+      "description": "Witness breathtaking Bharatanatyam, Kathak, and Kuchipudi performances.",
+      "availableSeats": 700,
+      "organizer": "Cultural Arts Society"
+    },
+    {
+      "id": 20,
+      "title": "National Chess Championship",
+      "category": "Sports",
+      "date": "2026-12-02",
+      "time": "09:00 AM",
+      "location": "Kolkata",
+      "price": 199,
+      "image": "https://images.unsplash.com/photo-1528819622765-d6bcf132f793?w=800",
+      "description": "Compete against India's best chess players in an exciting tournament.",
+      "availableSeats": 400,
+      "organizer": "Chess Federation"
+    },
+    {
+      "id": 21,
+      "title": "Cloud Computing Conference",
+      "category": "Technology",
+      "date": "2026-10-28",
+      "time": "09:30 AM",
+      "location": "Pune",
+      "price": 1299,
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800",
+      "description": "Explore AWS, Azure, Google Cloud, DevOps, and modern cloud architecture.",
+      "availableSeats": 600,
+      "organizer": "Cloud Tech India"
+    },
+    {
+      "id": 22,
+      "title": "Street Food Fiesta",
+      "category": "Food",
+      "date": "2026-11-12",
+      "time": "01:00 PM",
+      "location": "Ahmedabad",
+      "price": 249,
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800",
+      "description": "Taste famous street foods from every corner of India.",
+      "availableSeats": 1800,
+      "organizer": "Taste of India"
+    },
+    {
+      "id": 23,
+      "title": "Stand-up Comedy Carnival",
+      "category": "Comedy",
+      "date": "2026-12-10",
+      "time": "08:00 PM",
+      "location": "Hyderabad",
+      "price": 599,
+      "image": "https://images.unsplash.com/photo-1515169067868-5387ec356754?w=800",
+      "description": "An evening packed with hilarious performances by top comedians.",
+      "availableSeats": 900,
+      "organizer": "Laugh Factory"
+    },
+    {
+      "id": 24,
+      "title": "Cricket Skills Training Camp",
+      "category": "Sports",
+      "date": "2026-11-22",
+      "time": "07:00 AM",
+      "location": "Visakhapatnam",
+      "price": 699,
+      "image": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=800",
+      "description": "Professional cricket coaching for aspiring players of all age groups.",
+      "availableSeats": 150,
+      "organizer": "AP Cricket Academy"
+    }
+  ],
+  "Users": [
+    {
+      "id": 1,
+      "name": "sairohit",
+      "email": "vurukutisairohit049@gmail.com",
+      "password": "6302923694A@r"
+    },
+    {
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "1234",
+      "id": 2
+    },
+    {
+      "name": "rohit",
+      "email": "vurkutisaohit1995@gmail.com",
+      "password": "6302923694A@r",
+      "id": 3
+    },
+    {
+      "name": "ufbhfbf",
+      "email": "vurukutisairohi49@gmail.com",
+      "password": "676767",
+      "id": 4
+    },
+    {
+      "name": "Shivaji",
+      "email": "ss@gmail.com",
+      "password": "12345678",
+      "id": 5
+    },
+    {
+      "name": "rohit",
+      "email": "rohit@gmail.com",
+      "password": "12345678",
+      "id": 6
+    }
+  ],
+  "Bookings": [
+    {
+      "id": 1,
+      "userEmail": "abc@gmail.com",
+      "eventId": 5,
+      "tickets": 1
+    },
+    {
+      "userId": 1,
+      "userName": "sairohit",
+      "email": "vurukutisairohit049@gmail.com",
+      "eventName": "International Food Carnival",
+      "eventId": 7,
+      "tickets": 1,
+      "phone": "6302923694",
+      "payment": "UPI",
+      "total": 299,
+      "id": 12
+    },
+    {
+      "userId": 5,
+      "userName": "Shivaji",
+      "email": "ss@gmail.com",
+      "eventName": "Arijit Singh Live Concert",
+      "eventId": 2,
+      "tickets": 1,
+      "phone": "9849483963",
+      "payment": "UPI",
+      "total": 999,
+      "id": 13
+    },
+    {
+      "userId": 1,
+      "userName": "sairohit",
+      "email": "vurukutisairohit049@gmail.com",
+      "eventName": "OG Tour by S.S. Thaman",
+      "eventId": 1,
+      "tickets": 1,
+      "phone": "6302923694",
+      "payment": "UPI",
+      "total": 499,
+      "id": 14
+    },
+    {
+      "userId": 6,
+      "userName": "rohit",
+      "email": "rohit@gmail.com",
+      "eventName": "OG Tour by S.S. Thaman",
+      "eventId": 1,
+      "tickets": 1,
+      "phone": "6302923694",
+      "payment": "UPI",
+      "total": 499,
+      "id": 15
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "username": "sairohit",
+      "email": "vurukutisairohit049@gmail.com",
+      "password": "6302923694A@r"
+    }
+  ]
+}

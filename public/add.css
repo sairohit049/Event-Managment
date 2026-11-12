@@ -1,0 +1,118 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px 15px;
+
+    /* background:linear-gradient(135deg,#667eea,#764ba2); */
+}
+
+#addEvent{
+
+    width:100%;
+    max-width:700px;
+
+    background:#fff;
+
+    padding:40px;
+
+    border-radius:18px;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.18);
+
+}
+
+#addEvent h2{
+
+    text-align:center;
+
+    font-size:34px;
+
+    font-weight:700;
+
+    margin-bottom:30px;
+
+    color:#3d3d3d;
+}
+
+.form-control{
+
+    border-radius:10px;
+
+    padding:13px 15px;
+
+    border:1px solid #ddd;
+
+    transition:.3s;
+
+}
+
+.form-control:focus{
+
+    border-color:#6c63ff;
+
+    box-shadow:0 0 8px rgba(108,99,255,.25);
+
+}
+
+textarea{
+
+    resize:none;
+
+    min-height:130px;
+
+}
+
+.btn-primary{
+
+    width:100%;
+
+    height:52px;
+
+    border:none;
+
+    border-radius:12px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    background:linear-gradient(90deg,#6c63ff,#5a52d4);
+
+    transition:.3s;
+
+}
+
+.btn-primary:hover{
+
+    transform:translateY(-3px);
+
+    background:linear-gradient(90deg,#5a52d4,#483fc7);
+
+}
+
+@media(max-width:768px){
+
+    #addEvent{
+
+        padding:25px;
+
+    }
+
+    #addEvent h2{
+
+        font-size:28px;
+
+    }
+
+}
